@@ -10,47 +10,12 @@ WHat Is Used ???
     JavaScript
     
     
-    PHP (Not OOP)
-    MYSQLI
+    PHP 
+    MYSQL
   
   
   
-   I have use 1 database and 3 table
-       first table: user
-
-           CREATE TABLE `user` (
-          `id` int(100) NOT NULL,
-          `name` varchar(100) NOT NULL,
-          `username` varchar(100) NOT NULL,
-          `password` varchar(100) NOT NULL,
-          `email` varchar(100) NOT NULL
-          )
-
-
-      second table :
-
-           CREATE TABLE `filelist` (
-          `id` int(11) NOT NULL,
-          `user_id` int(11) NOT NULL,
-          `title` varchar(255) NOT NULL,
-          `catagory` varchar(100) NOT NULL,
-          `file` text NOT NULL,
-          `playcount` int(100) NOT NULL
-           )
-
-
-       3rd table :
-
-           CREATE TABLE `shareinfo` (
-          `shareid` int(100) NOT NULL,
-      `    user_id` int(100) NOT NULL,
-      `    share_code` varchar(100) NOT NULL,
-      `    value` int(1) NOT NULL
-           ) 
-
   
-    
-    
     
     
     
